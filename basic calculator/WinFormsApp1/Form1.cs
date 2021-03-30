@@ -19,6 +19,8 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if( result.Text == "0")
+                result.Clear();
             Button button = (Button)sender;
             result.Text = result.Text + button.Text;
         }
