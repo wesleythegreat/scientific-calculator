@@ -182,7 +182,7 @@ namespace WinFormsApp1
             this.button13.TabIndex = 15;
             this.button13.Text = "+";
             this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button1_Click);
+            this.button13.Click += new System.EventHandler(this.operator_click);
             // 
             // button14
             // 
@@ -193,6 +193,7 @@ namespace WinFormsApp1
             this.button14.TabIndex = 14;
             this.button14.Text = "-";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.operator_click);
             // 
             // button15
             // 
@@ -203,6 +204,7 @@ namespace WinFormsApp1
             this.button15.TabIndex = 13;
             this.button15.Text = "*";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.operator_click);
             // 
             // button16
             // 
@@ -213,7 +215,7 @@ namespace WinFormsApp1
             this.button16.TabIndex = 12;
             this.button16.Text = "/";
             this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
+            this.button16.Click += new System.EventHandler(this.operator_click);
             // 
             // button18
             // 
@@ -263,9 +265,9 @@ namespace WinFormsApp1
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(37, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 25);
+            this.label1.Size = new System.Drawing.Size(70, 25);
             this.label1.TabIndex = 20;
-            this.label1.Text = "label1";
+            this.label1.Text = "wesley";
             // 
             // Form1
             // 
